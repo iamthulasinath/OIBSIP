@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    background-image: url("https://www.roomtoreward.org/wp-content/uploads/blur-room-dark.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI';
+    color: white;
+    padding: 20px;
+
+}
+
+.logo{
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 20px;
+    color: orange;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-item{
+    margin-right: 15px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-section{
+    margin-top: 67px;
+    text-align: center;
+}
+
+.headline{
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.login-button{
+    background-color: cornsilk;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 39px;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+.login-button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: orange;
+}
+
+
+
+.signIn-button{
+    background-color: orange;
+    border: 0px solid ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 39px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.signIn-button:hover{
+    background: transparent;
+    border: 2px solid orange;
+    color: white;
+}
+
+.discription{
+    margin-bottom: 30px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    color: rgb(226, 187, 11);
+    font-weight: 600;
+
+    
+}

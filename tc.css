@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium';
+}
+
+.tem-conv-card{
+    background-color:aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar i{
+    margin-right: 5px;
+}
+
+.heading{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.input-box input{
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+    margin-top: 10px;
+    padding: 7px;
+    margin-right: 5px;
+}
+
+.input-box label{
+    font-size: 18px;
+}
+
+.sel select{
+    padding: 7px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid red;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sel label{
+    font-size: 18px;
+}
+
+.result input{
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+    margin-top: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.result label{
+    font-size: 18px
+}
+
+.button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 40px;
+    cursor: pointer;
+}

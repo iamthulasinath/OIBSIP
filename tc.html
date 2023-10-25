@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <meta name = viewport content = width = device-width, initial-scale = 1/>
+        <link rel="stylesheet" href="tc.css"/>
+        <script src="https://kit.fontawesome.com/819ad44ab9.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <div class="bg-container">
+            <div class="tem-conv-card">
+                <div class="navbar">
+                    <p id="timeObj">0:00</p>
+                    <div>
+                        <i class="fa-solid fa-signal"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                </div>
+                <h1 class="heading">Temperature Converter</h1>
+                <div class="body-section">
+                    <div class="row">
+                        <div class="input-box">
+                            <label>Degrees</label><br>
+                            <input type="text" id="inputValue"/>
+                        </div>
+                        <div  class="sel">
+                            <label>Type</label><br>
+                            <select id="convertType">
+                                <option value="Fahrenheit">Fahrenheit</option>
+                                <option value="Celcius">Celcius</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <label>Result</label><br>
+                        <input type="text" id="resultValue"/>
+                    </div>
+                    <button class="button" id="convertBtn">Convert</button>
+                </div>
+            </div>
+        </div>  
+        <script src="tc.js"></script> 
+    </body>
+</html>
